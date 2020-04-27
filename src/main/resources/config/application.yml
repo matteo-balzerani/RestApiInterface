@@ -1,0 +1,16 @@
+spring:
+   application:
+     name: restApi
+   profiles: 
+    active: dev
+   jackson:
+    serialization:
+      indent-output: true
+   data:
+    mongodb:
+      uri: mongodb://localhost:27017/unreaded
+server:
+  port: 8081
+logging:
+  level:
+    ROOT: INFO
